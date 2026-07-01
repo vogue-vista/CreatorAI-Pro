@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/generer.py": {
+      "runtime": "python3.9"
+    }
+  }
+}
