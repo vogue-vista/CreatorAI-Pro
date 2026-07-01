@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#0f172a;
+
+    color:white;
+
+}
+
+
+header{
+
+    text-align:center;
+
+    padding:50px 20px;
+
+}
+
+
+header h1{
+
+    font-size:45px;
+
+    margin-bottom:10px;
+
+}
+
+
+header p{
+
+    color:#94a3b8;
+
+}
+
+
+.container{
+
+    width:95%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:420px 1fr;
+
+    gap:30px;
+
+    padding-bottom:50px;
+
+}
+
+
+
+.card{
+
+    background:#1e293b;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.35);
+
+}
+
+
+.card h2{
+
+    margin-bottom:25px;
+
+}
+
+
+
+label{
+
+    display:block;
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#334155;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+
+
+select{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#334155;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+
+
+input:focus{
+
+    outline:2px solid #3b82f6;
+
+}
+
+
+
+select:focus{
+
+    outline:2px solid #3b82f6;
+
+}
+
+
+
+button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    background:linear-gradient(90deg,#2563eb,#06b6d4);
+
+    color:white;
+
+    transition:.25s;
+
+}
+
+
+
+button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+
+#resultat{
+
+    min-height:700px;
+
+    line-height:1.8;
+
+}
+
+
+
+#resultat h3{
+
+    margin-top:25px;
+
+    color:#38bdf8;
+
+}
+
+
+
+.attente{
+
+    color:#94a3b8;
+
+    text-align:center;
+
+    margin-top:100px;
+
+    font-size:20px;
+
+}
+
+
+
+pre{
+
+    white-space:pre-wrap;
+
+}
+
+
+
+@media(max-width:900px){
+
+.container{
+
+grid-template-columns:1fr;
+
+}
+
+}
