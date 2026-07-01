@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CreatorAI Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎬 CreatorAI Pro</h1>
+
+<p>
+Crée des vidéos virales avec l'IA.
+</p>
+
+</header>
+
+
+<div class="container">
+
+
+<div class="card">
+
+
+<h2>Créer une vidéo</h2>
+
+
+<label>Sujet</label>
+
+<input
+id="theme"
+type="text"
+placeholder="Ex : Gaming, Business, Fitness..."
+>
+
+
+<label>Plateforme</label>
+
+<select id="plateforme">
+
+<option>TikTok</option>
+
+<option>YouTube Shorts</option>
+
+<option>Instagram Reels</option>
+
+</select>
+
+
+
+<label>Style</label>
+
+<select id="style">
+
+<option>Storytelling</option>
+
+<option>Éducatif</option>
+
+<option>Drôle</option>
+
+<option>Motivation</option>
+
+<option>Controverse</option>
+
+</select>
+
+
+
+<label>Ton</label>
+
+<select id="ton">
+
+<option>Énergique</option>
+
+<option>Professionnel</option>
+
+<option>Mystérieux</option>
+
+<option>Amical</option>
+
+</select>
+
+
+
+<label>Durée</label>
+
+<select id="duree">
+
+<option>30 secondes</option>
+
+<option selected>60 secondes</option>
+
+<option>90 secondes</option>
+
+</select>
+
+
+
+<button onclick="creerVideo()">
+
+🚀 Générer ma vidéo
+
+</button>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Résultat</h2>
+
+<div id="resultat">
+
+<p class="attente">
+
+Votre script apparaîtra ici.
+
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
